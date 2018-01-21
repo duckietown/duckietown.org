@@ -1,8 +1,10 @@
 github_username: duckietown
-incremental: true 
+incremental: false
 exclude:
   - CNAME
   - README.md
   - "*.head"
+  - 04_credits.md
+  - 02_updates.md
 description: |
     Duckietown is an international robotics education and outreach effort.

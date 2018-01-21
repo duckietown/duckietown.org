@@ -11,36 +11,54 @@ permalink: index.html
 </div>
  -->
 
-**Duckietown is a robotics educations and outreach effort.**
+ **Duckietown is an open-source and community driven platform used for robotics research, education, and outreach.**
 
-The project started as a graduate class in 2016; as of 2017, about 20 other
-universities have used the materials produced, as well as hundreds of self-guided
-learners.
 
-The most tangible goal of the project is to provide a **low-cost educational
-"experience"** for learning autonomy.
+In its simplest form, Duckietown is a small-scale city where simple autonomous vehicles 
+called Duckiebots, navigate the streets with the objective of collecting their Duckie 
+passengers and depositing them at their desired location. Though we must say the Duckies can
+be a little tight-lipped.
 
-Our platform consists of the "Duckiebots", simple autonomous robots, and the
-"Duckietowns", the infrastructure in which the Duckiebots navigates.
+<img id='town_and_bots' width='900' src='media/town_and_bots2.jpg'/>
 
-In addition to the **hardware** and **software**, we build a set of **learning
-modules** that can be used at various levels of education.
 
+### What is Duckietown?
+
+However, the brightly colored cities and charming Duckie-adorned robots are only the visual identity 
+of a complex and sophisticated robotics education platform.
+
+The goal of the **Duckietown platform** is to create an **_all-in-one tool_** to learn about autonomous driving.
+Of what does our platform comprise?
+
+* Instructions to make your own Duckietowns and Duckiebots
+* Software to make your Duckiebots perform tasks autonomously
+* Reference manual for introductory robotics
+* Teaching modules, plans, and other guides for educators or self-learners
+
+All neccessary information about our this platform is included in our 
+(still under development and therefore not yet polished) [Duckiebook](book.duckietown.org).
 
 ### Current status of the project
 
-Duckietown has graduated from being one class to an international initiative.
-We are in the process of creating the second version of the class and the
-materials, preparing for a large publicity initiative in early 2018. There are
-many ways in which [you can help](help.html).
+The second **official** iteration of the class began in September 2017 and was 
+taught cooperatively at three locations ([Zürich, Montréal, Chicago](classes/2017/index.html)). 
+A project that started as a graduate class in 2016 has now grown to an [international](outreach.html) effort.
+Upwards of 20 other universities have used the materials produced, as well as 
+hundreds of self-guided learners.
+ Duckietown has been adapted for both undergraduates and for high school students and has
+  been used in hackathons and to demonstrate research principles.
+ 
+ But this is only the beginning! Duckietown is still in its infancy and we want **you** 
+ to **use** and **improve** our *ever-evolving* and *collaborative* 
+education and research platform. Reach out to us if you are interested in [joining](contact.html)
+ our quacky community.
+
 
 <!--
 <p class='more-information'>For more information, see the <a href="http://book.duckietown.org/master/duckiebook/what_is_duckietown.html#sec:what-is-duckietown">section <em>What is Duckietown?</em></a> in the Duckietown book.</p> -->
 
-Duckietown is a distributed open-source project.
-The main development efforts are hosted by
-ETH Zürich (Switzerland), University of Montréal (Canada),
-National Chiao Tung University (Taiwan), Toyota Technological Institute at Chicago (USA).
+>*Duckietown is a distributed open-source project. The main development efforts are currently hosted by
+ETH Zürich (Switzerland), University of Montréal (Canada), National Chiao Tung University (Taiwan), Toyota Technological Institute at Chicago (USA).*
 
 
 <div id='logos'>
@@ -52,7 +70,7 @@ National Chiao Tung University (Taiwan), Toyota Technological Institute at Chica
 </div>
 
 <style>
-#logos img {  width: auto; margin-right: 1em;}
+#logos img {  width: auto; margin-right: 1em; margin-bottom: 2em;}
 
 img#eth { height: 4em; }
 img#udem { height: 4em; }
@@ -60,23 +78,4 @@ img#mit { height: 3em; }
 img#nctu { height: 5em; }
 img#ttic { height: 5em; }
 
-</style>
-
-### News
-
-<ul id='news'>
-  {% for post in site.posts %}
-  {% if post.categories contains 'front-page' %}
-    <li>
-    {{ post.date | date_to_long_string }}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <!-- {{ post.excerpt | remove: '<p>' | remove: '</p>' }} -->
-      <a href="{{ post.url }}">(read more)</a>
-    </li>
-  {% endif %}
-  {% endfor %}
-</ul>
-
-<style>
-#news li p { display: inline; }
 </style>

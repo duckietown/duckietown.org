@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Université de Montréal
-longtitle: "Autonomous Vehicles (aka. Duckietown)"
+longtitle: "Autonomous Vehicles"
 permalink: classes/2017/17-Montreal/index.html
 ---
 
@@ -26,7 +26,7 @@ This class follows the [successful first edition at MIT in 2016](/classes/2016/1
 **I am looking for people to help me and get involved in any way. Please read below [available positions](#positions)**
 
 
-# For students interested in taking the class
+### For students interested in taking the class
 
 There are only 12 spots available for the class this year. If you are interested to be in the class, please fill out [the application form][form]. Please be verbose with the long answer questions and include anything that might help you stand out. This class is a collaborative learning experience and I'm looking for a good mix of talents and personalities.
 
@@ -48,7 +48,7 @@ If you are not sure whether or not you would like to take the class I would enco
 
 **NB: You need to have your own laptop to take this course, and you need to be willing to install a fresh Ubuntu 16.04 partition on it for the duration of the class (I can help you with this)**
 
-# For non-students who want to get involved {#positions}
+### For non-students who want to get involved {#positions}
 
 ## University Professors in the Montreal area
 
@@ -66,7 +66,7 @@ Additionally, I am looking for postdocs to act as mentors in the course project 
 
 We have many needs from small to large. Whatever your expertise, it is likely that we can use your help. Not least of all would other students who want to act as teaching assistants (I might be able to pay you). Please [contact me asap][lpaull].
 
-# What makes this a special class? {#special}
+### What makes this a special class? {#special}
 
 This class is unique in many ways.
 

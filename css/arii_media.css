@@ -1,7 +1,8 @@
 
 code {
   color: inherit !important;
-  background-color: inherit !important;
+  /*background-color: inherit !important;*/
+  background-color: white;
   padding: inherit !important;
 }
 p.under-construction {
@@ -17,7 +18,7 @@ div.figure-with-caption p {
 }
 
  body {
-     font-family: Cambria, serif;
+     font-family: Garamond, Helvetica, Calibri, Cambria, serif;
      font-size: 18px;
  }
 
@@ -55,7 +56,7 @@ p.more-information:before {
 }
 
 #duckietown-logo {
-    width: 10em;
+    width: 14em;
     max-width: 100%;
     margin-top: 1.3em;
 }
@@ -74,13 +75,15 @@ div.nav-primary > ul {
 }
 div.nav-primary ul {
     list-style-type: none;
+    text-align: center;
+    font-variant: small-caps;
     margin: 0;
     padding: 0;
    /*background-color: grey;*/
    padding-left: 1em;
 }
 div.nav-primary li {
-    padding: 2px;
+    padding: 5px;
     font-weight: bold;
     font-size: 100%;
 }
@@ -89,19 +92,27 @@ li.open {
     /*color: red !important;*/
 }
 li.selected {
-    background-color: #fcf8e3;
+    background-color: #fde69b;
          font-weight: bold;
-         list-style: none;
+         /*list-style: none;*/
 }
 
 
 h1 {
-    font-size: 240%;
-    font-weight: bold;
+    font-size: 320%;
+    /*font-weight: bold;*/
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-stretch: extra-expanded;
+    font-family: "Monospace", "Arial Black", "Arial Bold", Gadget, sans-serif;
+    color: #ffc70a;
+    text-shadow: 0px -2px 0px  #F99B14, 2px 2px 0px #F99B14, 2px 0px 0px #F99B14, 2px 0px 0px #F99B14;
+    /*text-shadow: 0px 0px 3px #d8440e, 0px 0px 3px #f15922;*/
+    transform: scale(1, 1.2)
     /*text-align: center;*/
     /*text-shadow: 2px 2px black;*/
+    
 
-    color: #aa6300;
 }
 
 .navbar p {
@@ -112,17 +123,23 @@ h1 {
     max-width: 50em;
 }
 
-h1, h2, h3 {
-    font-family: Garamond, 'Lobster Two', cursive;
 }
 
 h2 {
-    color: #aa6300;
+    color: #f15922;
+     font-family: Arial Black, Monospace, Comic Sans MS, Palatino, Garamond, Verdana;
+     font-size:170%;
     }
 
 h3 {
-    color: #aa6300;
+    color: #F99B14;
     font-size:150%;
+    font-family: Arial Black, Monospace, Comic Sans MS, Palatino, Garamond, Verdana;
+    font-style:oblique;
+    font-weight: bold;
+    font-variant: small-caps;
+    /*text-transform: uppercase;
+    
     }
 
 .index img {
@@ -232,14 +249,14 @@ li a {
   }
   .site-nav.is-fixed .navbar-brand:hover,
   .site-nav.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: #006cb5;
   }
   .site-nav.is-fixed .nav li a {
     color: #404040;
   }
   .site-nav.is-fixed .nav li a:hover,
   .site-nav.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: #4b0080;
   }
   .site-nav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
