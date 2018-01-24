@@ -72,6 +72,28 @@ Motivation:
 
 </div>
 
+<div class='idea' markdown='1'>
+
+### Intersection Coordination
+
+* Motivation: In an urban context, crossings of vehicles at intersections are very common. A vehicle that wants to engage an intersection needs to do so guaranteeing safety in the different traffic conditions. Coordination is therefore necessary whether done by a centralised administrator or between the vehicles themselves.
+Some approaches are already implemented: explicit coordination, based on LED communication and implicit coordination, based on vehicle detection and tracking. The next step is to deal with an hybrid situation where not all the vehicles have LEDs and make the coordination more efficient still guaranteeing the same level of safety.
+
+* Suggested approach: Peer to peer network communication for hybrid intersection coordination and traffic information propagation.
+
+
+<span class="bronze"/> Centralised intelligent coordinator, e.g. smart traffic light, to optimise the clearing time based on which directions the vehicles want to go (multiple vehicles crossing at the same time if the trajectories are compatible).
+
+<span class="silver"/> Replace the intelligent centralised coordinator with one of the vehicles at the intersection.
+
+<span class="gold"/> Peer to peer network communication.
+
+<span class="SW"/>
+<span class="PHY"/>
+
+
+</div>
+
 ## Projects to implement new functionality or behaviors
 <div class='idea' markdown='1'>
 
@@ -84,9 +106,9 @@ Motivation:
     </div>
 
     <div class="col-sm-6">
-	
+
 	RobotX challenge is the competition for autonomous surface and underwater vehicles initiated by the Office of Naval Research (ONR) and ran by the Association of Unmanned Vehicle System International (AUVSI). The next competition will be in Hawaii in Dec 2018. Can we use Duckietown to train students to get ready for RobotX? We aim to design RobotX-like scenarios for a Duckiebot to accomplish!
-	
+
     </div>
   </div>
   <div class="clearfix"></div>
@@ -116,10 +138,10 @@ Motivation:
     </div>
 
     <div class="col-sm-6">
-	
-	Human novice drivers need to pass the driving road tests in order to get a license. Can a self-driving vehicle achieve the same tasks? We will use a 1/16 sized testing environment including various tasks, such as parking, S-shaped curved road, stop sign, ramp, and etc. Such environments allow us to examine the level of autonomy and robustness of a self- driving vehicle. 
 
-	
+	Human novice drivers need to pass the driving road tests in order to get a license. Can a self-driving vehicle achieve the same tasks? We will use a 1/16 sized testing environment including various tasks, such as parking, S-shaped curved road, stop sign, ramp, and etc. Such environments allow us to examine the level of autonomy and robustness of a self- driving vehicle.
+
+
     </div>
   </div>
   <div class="clearfix"></div>
@@ -138,7 +160,7 @@ Motivation:
 
 <div class='idea' markdown='1'>
 
-### Multi-Duckiebot Patrolling 
+### Multi-Duckiebot Patrolling
 
   <div class="row-fluid">
     <div class="col-sm-6">
@@ -148,9 +170,9 @@ Motivation:
     </div>
 
     <div class="col-sm-6">
-	
-	It is known that multi-robot experiments are typically performed in simulation or with limited amount of real robots. Nevertheless, in real world the location of each robot may be uncertain, and each of them may encounter unexpected delays, making the patrolling problem challenging. We wish to use a fleet of Duckiebots to work together and achieve a goal autonomously in semi-structured environments. 
-	
+
+	It is known that multi-robot experiments are typically performed in simulation or with limited amount of real robots. Nevertheless, in real world the location of each robot may be uncertain, and each of them may encounter unexpected delays, making the patrolling problem challenging. We wish to use a fleet of Duckiebots to work together and achieve a goal autonomously in semi-structured environments.
+
     </div>
   </div>
   <div class="clearfix"></div>
@@ -222,9 +244,9 @@ Motivation: Imagine  a class with 20 people and 20 robots: how can the teacher k
     </div>
 
     <div class="col-sm-6">
-	
+
 Motivation: To make a Duckiebot the first robot for all kids around the world, the interface can't be too hard to learn. Currently we can only interact with robots through command line interfaces, and it requires a level of coding skills. We hope to build a Scratch interface for beginners of programming language and robotics. We also wish that such interfaces will make robots accessible and easy-to-learn for everyone, all ages and all backgrounds.
-	
+
     </div>
   </div>
   <div class="clearfix"></div>
