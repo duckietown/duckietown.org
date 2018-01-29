@@ -51,12 +51,7 @@ We use the following tags to discuss the projects:
 To facilitate communication, we will match students to the institutions in the same time zone.
 
 
-
-## Projects about performance optimization
-
-Performance optimization projects are relatively easy. You have some functionality already implemented. You need to make it more efficient, while the unit tests continue to pass. Easy!
-
-<div class='idea' markdown='1'>
+<!-- <div class='idea' markdown='1'>
 
 ### Improving the performance of the line detection
 
@@ -70,130 +65,13 @@ Motivation:
 
 <span class="SW"/>
 
-</div>
+</div> -->
 
-<div class='idea' markdown='1'>
-
-### Intersection Coordination
-
-* Motivation: In an urban context, crossings of vehicles at intersections are very common. A vehicle that wants to engage an intersection needs to do so guaranteeing safety in the different traffic conditions. Coordination is therefore necessary whether done by a centralised administrator or between the vehicles themselves.
-Some approaches are already implemented: explicit coordination, based on LED communication and implicit coordination, based on vehicle detection and tracking. The next step is to deal with an hybrid situation where not all the vehicles have LEDs and make the coordination more efficient still guaranteeing the same level of safety.
-
-* Suggested approach: Peer to peer network communication for hybrid intersection coordination and traffic information propagation.
-
-
-<span class="bronze"/> Centralised intelligent coordinator, e.g. smart traffic light, to optimise the clearing time based on which directions the vehicles want to go (multiple vehicles crossing at the same time if the trajectories are compatible).
-
-<span class="silver"/> Replace the intelligent centralised coordinator with one of the vehicles at the intersection.
-
-<span class="gold"/> Peer to peer network communication.
-
-<span class="SW"/>
-<span class="PHY"/>
-
-
-</div>
-
-## Projects to implement new functionality or behaviors
-<div class='idea' markdown='1'>
-
-### When Duckiebot meets RobotX Challenge
-  <div class="row-fluid">
-    <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-		<iframe src="https://player.vimeo.com/video/252327801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="col-sm-6">
-
-	RobotX challenge is the competition for autonomous surface and underwater vehicles initiated by the Office of Naval Research (ONR) and ran by the Association of Unmanned Vehicle System International (AUVSI). The next competition will be in Hawaii in Dec 2018. Can we use Duckietown to train students to get ready for RobotX? We aim to design RobotX-like scenarios for a Duckiebot to accomplish!
-
-    </div>
-  </div>
-  <div class="clearfix"></div>
-
-<span class="bronze"/>
-
-<span class="silver"/>
-
-<span class="gold"/>
-
-<span class="SWP"/>
-<span class="AIP"/>
-<span class="PHYP"/>
-<span class="EDU"/>
-
-</div>
-
-<div class='idea' markdown='1'>
-
-### Duckiebots Taking on Driving Tests
-
-  <div class="row-fluid">
-    <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-		<iframe src="https://player.vimeo.com/video/252327724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="col-sm-6">
-
-	Human novice drivers need to pass the driving road tests in order to get a license. Can a self-driving vehicle achieve the same tasks? We will use a 1/16 sized testing environment including various tasks, such as parking, S-shaped curved road, stop sign, ramp, and etc. Such environments allow us to examine the level of autonomy and robustness of a self- driving vehicle.
-
-
-    </div>
-  </div>
-  <div class="clearfix"></div>
-
-<span class="bronze"/>
-
-<span class="silver"/>
-
-<span class="gold"/>
-
-<span class="SWP"/>
-<span class="AIP"/>
-<span class="EDU"/>
-
-</div>
-
-<div class='idea' markdown='1'>
-
-### Multi-Duckiebot Patrolling
-
-  <div class="row-fluid">
-    <div class="col-sm-6">
-        <div class="embed-responsive embed-responsive-16by9">
-		<iframe src="https://player.vimeo.com/video/252327791" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="col-sm-6">
-
-	It is known that multi-robot experiments are typically performed in simulation or with limited amount of real robots. Nevertheless, in real world the location of each robot may be uncertain, and each of them may encounter unexpected delays, making the patrolling problem challenging. We wish to use a fleet of Duckiebots to work together and achieve a goal autonomously in semi-structured environments.
-
-    </div>
-  </div>
-  <div class="clearfix"></div>
-
-<span class="bronze"/>
-
-<span class="silver"/>
-
-<span class="gold"/>
-
-<span class="SWP"/>
-<span class="AIP"/>
-<span class="PHYP"/>
-<span class="EDU"/>
-
-</div>
 
 ## Projects on the User Interface
 
+<!--
 <div class='idea' markdown='1'>
-
 ### Increasing user-friendliness of operations
 
 Motivation: Currently one interacts with robot only using the command line interface.
@@ -210,7 +88,7 @@ It would be great if it was easier to interact with the robot, such as starting 
 <span class="PHY"/>
 
 </div>
-
+-->
 
 <div class='idea' markdown='1'>
 
@@ -218,11 +96,12 @@ It would be great if it was easier to interact with the robot, such as starting 
 
 Motivation: Imagine  a class with 20 people and 20 robots: how can the teacher know that everything is ready for the next experience?
 
-<span class="bronze"/>
+<span class="bronze"/> The teacher can see which robots are online.
 
-<span class="silver"/>
+<span class="silver"/>The teacher can see which robots are properly
+configured for each stage of the class.
 
-<span class="gold"/>
+<span class="gold"/>The teacher can collect statistics about how Duckiebots are used and where the students get stuck most often.
 
 
 <span class="SWP"/>
@@ -250,13 +129,13 @@ Motivation: To make a Duckiebot the first robot for all kids around the world, t
     </div>
   </div>
   <div class="clearfix"></div>
-
+<!--
 <span class="bronze"/>
 
 <span class="silver"/>
 
 <span class="gold"/>
-
+ -->
 
 <span class="SW"/>
 <span class="EDU"/>
@@ -265,8 +144,69 @@ Motivation: To make a Duckiebot the first robot for all kids around the world, t
 </div>
 
 
+<div class='idea' markdown='1'>
 
-## Idea Group: Infrastracture
+### User interface for creating maps
+
+Create a nice way to create Duckietown maps.
+
+<span class="bronze"/>1980s Simcity level of quality: fixed tiles library.
+
+<span class="silver"/>Possibility of creating custom tiles.
+
+<span class="gold"/>Cities: Skyline level of quality.
+
+<span class="SW"/>
+
+</div>
+
+
+<div class='idea' markdown='1'>
+
+### User interface for operator (laptop/web version)
+
+Create a nice user interface to show:
+
+1. health statistics for the various modules;
+2. cpu and network consumption;
+3. current state of the robot;
+4. ...
+
+This interface could be web based or running in a desktop environment.
+
+<span class="SW"/>
+
+</div>
+
+
+
+<div class='idea' markdown='1'>
+
+### User interface for operator (mobile version)
+
+Like the previous project, but target a phone/tablet device.
+
+Ideally, it should be available for Android and iPhone.
+
+<span class="SWP"/>
+
+</div>
+
+
+
+<div class='idea' markdown='1'>
+
+### Remote debug console / interface
+
+Allow an instructor or teaching assistant to debug remote problems.
+
+It should work for a Duckiebot that is behind a NAT.
+
+<span class="SWP"/>
+
+</div>
+
+## Projects about the infrastructure
 
 <div class='idea' markdown='1'>
 
@@ -277,17 +217,228 @@ The Duckietown project relies on several backend tools for cloud-based integrati
 * Improving log database, adding automatic submissions;
 * Improving the regression tests.
 
-
+<!--
 <span class="bronze"/>
 
 <span class="silver"/>
 
-<span class="gold"/>
+<span class="gold"/> -->
 
 
 <span class="SWP"/>
 
 </div>
+
+
+
+<div class='idea' markdown='1'>
+
+### Javascript interactive interface for our log repository
+
+We make available many logs for research in perception and machine learning
+at the site <http://logs.duckietown.org>, however, they are not easy
+to search.
+
+<span class="bronze"/>Search/sort/filter the logs using Javascript.
+
+<span class="silver"/>Add tag system.
+
+<span class="gold"/>Add commenting/voting systems for the logs.
+
+
+<span class="SW"/>
+
+</div>
+
+
+
+<div class='idea' markdown='1'>
+
+### Worldwide log collection
+
+Find a way to collect all Duckiebot logs in the world in a scalable way.
+
+One possibility is using the [Inter Planetary File System](http://ipfs.io).
+
+
+<span class="bronze"/>Robots can publish their logs using IPFS or analogous system.
+
+<span class="silver"/>A centralized system (like <http://logs.duckietown.org>) shows which logs are being published.
+
+<span class="gold"/>The solution scales to hundreds of thousands of robots.
+
+
+<span class="SWP"/>
+
+</div>
+
+
+
+<div class='idea' markdown='1'>
+
+### Worldwide telemetry collection
+
+Allow the telemetry of Duckiebots to be collected worldwide.
+
+The telemetry is small data (not full images) that can be used
+to diagnose the problems with algorithms / controllers, especially
+when updates are made.
+
+<span class="SWP"/>
+
+</div>
+
+
+
+## Projects about performance optimization
+
+Performance optimization projects are relatively easy. You have some functionality already implemented. You need to make it more efficient, while the unit tests continue to pass. Easy!
+
+Just choose one of the many components.
+
+Examples of components:
+
+* illumination invariance module;
+* line detector;
+* lane localizer;
+* global localization;
+* ...
+
+
+## Projects to implement new functionality or behaviors
+
+<div class='idea' markdown='1'>
+
+### Intersection Coordination
+
+* Motivation: In an urban context, crossings of vehicles at intersections are very common. A vehicle that wants to engage an intersection needs to do so guaranteeing safety in the different traffic conditions. Coordination is therefore necessary whether done by a centralised administrator or between the vehicles themselves.
+Some approaches are already implemented: explicit coordination, based on LED communication and implicit coordination, based on vehicle detection and tracking. The next step is to deal with an hybrid situation where not all the vehicles have LEDs and make the coordination more efficient still guaranteeing the same level of safety.
+
+* Suggested approach: Peer to peer network communication for hybrid intersection coordination and traffic information propagation.
+
+
+<span class="bronze"/> Centralised intelligent coordinator, e.g. smart traffic light, to optimise the clearing time based on which directions the vehicles want to go (multiple vehicles crossing at the same time if the trajectories are compatible).
+
+<span class="silver"/> Replace the intelligent centralised coordinator with one of the vehicles at the intersection.
+
+<span class="gold"/> Peer to peer network communication.
+
+<span class="SW"/>
+<span class="PHY"/>
+
+
+</div>
+
+
+<div class='idea' markdown='1'>
+
+### When Duckiebot meets RobotX Challenge
+  <div class="row-fluid">
+    <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+		<iframe src="https://player.vimeo.com/video/252327801" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+
+	RobotX challenge is the competition for autonomous surface and underwater vehicles initiated by the Office of Naval Research (ONR) and ran by the Association of Unmanned Vehicle System International (AUVSI). The next competition will be in Hawaii in Dec 2018. Can we use Duckietown to train students to get ready for RobotX? We aim to design RobotX-like scenarios for a Duckiebot to accomplish!
+
+    </div>
+  </div>
+  <div class="clearfix"></div>
+
+<!-- <span class="bronze"/>
+
+<span class="silver"/>
+
+<span class="gold"/> -->
+
+<span class="SWP"/>
+<span class="AIP"/>
+<span class="PHYP"/>
+<span class="EDU"/>
+
+</div>
+
+
+
+<div class='idea' markdown='1'>
+
+### Self calibration
+
+Allow the robot to self-calibrate cameras and motors without human intervention.
+
+<span class="SW"/>
+<span class="AI"/>
+
+</div>
+
+
+<div class='idea' markdown='1'>
+
+### Duckiebots Taking on Driving Tests
+
+  <div class="row-fluid">
+    <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+		<iframe src="https://player.vimeo.com/video/252327724" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+
+	Human novice drivers need to pass the driving road tests in order to get a license. Can a self-driving vehicle achieve the same tasks? We will use a 1/16 sized testing environment including various tasks, such as parking, S-shaped curved road, stop sign, ramp, and etc. Such environments allow us to examine the level of autonomy and robustness of a self- driving vehicle.
+
+
+    </div>
+  </div>
+  <div class="clearfix"></div>
+
+<!-- <span class="bronze"/>
+
+<span class="silver"/>
+
+<span class="gold"/> -->
+
+<span class="SWP"/>
+<span class="AIP"/>
+<span class="EDU"/>
+
+</div>
+
+<div class='idea' markdown='1'>
+
+### Multi-Duckiebot Patrolling
+
+  <div class="row-fluid">
+    <div class="col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9">
+		<iframe src="https://player.vimeo.com/video/252327791" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="col-sm-6">
+
+	It is known that multi-robot experiments are typically performed in simulation or with limited amount of real robots. Nevertheless, in real world the location of each robot may be uncertain, and each of them may encounter unexpected delays, making the patrolling problem challenging. We wish to use a fleet of Duckiebots to work together and achieve a goal autonomously in semi-structured environments.
+
+    </div>
+  </div>
+  <div class="clearfix"></div>
+
+<!-- <span class="bronze"/>
+
+<span class="silver"/>
+
+<span class="gold"/> -->
+
+<span class="SWP"/>
+<span class="AIP"/>
+<span class="PHYP"/>
+<span class="EDU"/>
+
+</div>
+
 
 <style>
 .SW, .SWP,
@@ -324,9 +475,16 @@ border:solid 1px red;
 .silver::before {content: "Silver-level achievement: "}
 .gold::before {content: "Gold-level achievement: "}
 .bronze::before {content: "Bronze-level achievement: "}
-.silver { background-color: grey; margin-left: 2em; }
-.gold { background-color: gold; margin-left: 2em;}
-.bronze { background-color: brown;margin-left: 2em; }
+.silver, .gold, .bronze {
+    margin-left: 2em; margin-right: 1em;
+    font-size: smaller;
+    font-variant: small-caps;
+
+background-color: #ffe;
+}
+.silver { color: grey; }
+.gold { color: gold; }
+.bronze { color: brown; }
 
 div.idea {
 
@@ -350,6 +508,7 @@ h3 { font-family: arial; font-weight: bold; color: black;}
 
 
 </style>
+
 
 
 <span class="SW"/>
