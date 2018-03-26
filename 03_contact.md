@@ -4,7 +4,9 @@ title: Contact
 permalink: contact.html
 ---
 
-For all inquiries, please contact [`duckietown@mit.edu`](mailto:duckietown@mit.edu).
+For all inquiries, please contact [`info@duckietown.org`](mailto:info@duckietown.org).
+
+<!-- For all inquiries, please contact [`duckietown@mit.edu`](mailto:duckietown@mit.edu). -->
 
 <!--
 
