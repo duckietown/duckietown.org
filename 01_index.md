@@ -11,7 +11,7 @@ permalink: index.html
 </div>
  -->
 
-**Duckietown is a robotics educations and outreach effort.**
+**Duckietown is a robotics education and outreach effort.**
 
 The project started as a graduate class in 2016; as of 2017, about 20 other
 universities have used the materials produced, as well as hundreds of self-guided
